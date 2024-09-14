@@ -1,0 +1,64 @@
+.top-header{
+    background-color: $primary-color;
+    padding: 7px 16px;
+    i{
+        color: white;
+        font-size: 16px;
+    }
+    .ht-contact{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+        span,a{
+            font-size: 12px;
+            color: #fff;
+        }
+    }
+}
+header{
+    background-color: $primary-color;
+    z-index: 9999;
+    &.menufixcustom{
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .navbar{
+        position:relative;
+        width: 100%;
+          
+            .nav-link{
+           
+
+
+                font-weight: 300;
+        padding-left: 30px;
+        padding-block: 20px;
+        color: #fff;
+            }
+            .bars{
+                color: #fff;
+            }
+            .navbar-toggler{
+                border: 1px solid #fff;
+            }
+               }
+.navbar-collapse{
+background-color: #2a72a4;
+
+}
+.dropdown-item{
+    font-weight: 400;
+    font-size: 17px;
+    color: $primary-color;
+    padding-block: 13px;
+
+}
+.dropdown-menu{
+    background: #f2efef;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+            }

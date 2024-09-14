@@ -1,0 +1,288 @@
+@media(min-width:992px){
+    header {
+        background: #fff;
+    }
+    .navbar-collapse{
+        background-color: #fff !important;
+    }
+    header .navbar .nav-link {
+        color: $primary-color;
+        font-weight: 700;
+        font-size: 19px;
+        padding-right: 48px !important;
+        line-height: 1;
+    }
+}
+
+@media(max-width:1440px) {
+    .banner-content h1 {
+        font-size: 60px;
+    }
+
+    .banner {
+        padding-block: 98px 133px;
+    }
+
+    .about-us .about-content {
+        padding: 49px;
+    }
+
+    .about-us .about-content strong {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .about-us .about-content h2 {
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+
+    .about-us .about-content p {
+        font-size: 16px;
+    }
+
+    .about-us .about-content a {
+        margin-top: 10px;
+    }
+
+    .about-us .about-content {
+        padding: 49px;
+
+    }
+
+    .about-us .about-content h2 {
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+
+    .about-us .about-content p {
+        font-size: 16px;
+    }
+
+    .about-us ul li {
+        font-size: 16px;
+
+    }
+
+    .copyright-content .social-icons {
+        margin-right: 50px;
+    }
+}
+
+@media(max-width:1200px) {
+    .banner-content h1 {
+        font-size: 52px;
+    }
+    header .navbar .nav-link {
+        padding-right: 22px !important;
+    }
+
+    .services-section .card .card-img-top {
+        max-height: 38%;
+    }
+
+    .services-section .card .card-body i {
+        font-size: 45px;
+    }
+
+    .services-section .card .card-body h5 {
+        margin-block: 3px 4px;
+    }
+
+    .services-section .card .card-body p {
+        font-size: 18px;
+    }
+
+    .about-us .about-content {
+        padding: 19px;
+    }
+
+    .about-us .about-content h2 {
+        margin-bottom: 11px;
+        font-size: 24px;
+    }
+
+    .about-us .about-content a {
+        padding: 12px 18px;
+    }
+
+    .about-us .about-content a {
+        margin-top: 0px;
+    }
+
+    .about-us .about-content p {
+        margin-bottom: 10px;
+    }
+
+    .about-us ul {
+        padding-block: 10px;
+        padding-left: 26px;
+    }
+
+    .about-us ul li {
+        padding-block: 4px;
+    }
+
+    footer {
+        gap: 30px;
+    }
+
+    .copyright-content p {
+        font-size: 16px;
+    }
+
+    .copyright-content .social-icons {
+        margin-right: 72px;
+    }
+
+    .scroll-top {
+        bottom: 22px;
+        padding: 9px;
+    }
+}
+
+@media(max-width:992px) {
+    .banner-content h1 {
+        font-size: 36px;
+        margin-block: 15px;
+    }
+
+    .banner-content .theme-btn {
+        font-size: 11px;
+        padding: 6px 13px;
+    }
+
+    .about-us {
+        display: block;
+    }
+    .serve {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .about-us .about-content {
+        padding: 55px 118px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer-item {
+        justify-content: start;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+ 
+
+   
+
+    .navbar .container-fluid {
+        padding: 0;
+    }
+   
+    header .navbar{
+        padding-right: 10px;
+    }
+  
+}
+
+@media(max-width:991px){
+   
+}
+
+
+@media(max-width:768px) {
+    .banner-content h1 {
+        font-size: 52px;
+    }
+
+    .ht-contact,
+    .ht-social {
+        border-bottom: 1px solid white;
+        padding-block: 10px;
+    }
+
+
+
+    .top-header {
+        padding: 0;
+        text-align: center;
+    }
+
+    .ht-contact {
+        justify-content: center !important;
+    }
+
+    
+
+    .banner-content {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .services-section .card {
+        margin-inline: 50px;
+    }
+
+    .services-section .card .card-img-top {
+        max-height: 53%;
+    }
+
+    .services-section .card .card-body i {
+        font-size: 75px;
+    }
+
+    .services-section .card .card-body h5 {
+        margin-block: 10px 15px;
+    }
+
+    .about-us .about-content {
+        padding: 42px 38px;
+    }
+
+    .copyright-content {
+        display: block;
+    }
+
+    .copyright-content .social-icons {
+        justify-content: center;
+    }
+
+    .copyright-content p {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .banner {
+        padding-block: 66px 82px;
+    }
+
+    .services-section .card {
+        margin-inline: 0px;
+    }
+
+    .services-section .card .card-body i {
+        font-size: 45px;
+    }
+
+    .services-section .card .card-body p {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-us .about-content {
+        padding: 29px 13px;
+    }
+}

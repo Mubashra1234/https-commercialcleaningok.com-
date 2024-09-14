@@ -1,0 +1,342 @@
+// banner
+.banner {
+    background: url(../img/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 138px 310px;
+    background-position-y: center;
+
+    &-content {
+        width: 65%;
+        padding-left: 100px;
+
+        h1 {
+            font-size: 76px;
+            line-height: 1.16;
+            font-weight: 500;
+            margin-block: 50px;
+        }
+    }
+}
+
+// .services-section
+.services-section {
+    margin-block: 100px;
+
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+
+        .card-img-top {
+            max-height: 276px;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+
+        .card-body {
+            i {
+                font-size: 75px;
+                color: $primary-color;
+                margin-bottom: 15px;
+            }
+
+            strong {
+                font-size: 1em;
+                line-height: 1.4;
+                color: $secondry-color;
+                font-weight: 500;
+                margin-block: 10px 15px;
+                display: block;
+            }
+
+            p {
+                max-width: 72%;
+                text-align: center;
+                margin: auto;
+                color: $text-color;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+
+// about-us
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ul {
+        list-style: disc;
+        padding-block: 17px;
+        padding-left: 40px;
+        li {
+            color: #747474;
+            font-size: 18px;
+            padding-block: 5px;
+        }
+    }
+    .about-img {
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .about-content {
+        padding: 118px;
+        strong {
+          color: $text-color;
+          font-weight: 500;
+          margin-bottom: 20px;
+          display: block;
+      }
+        h2 ,
+        h3{
+            margin-bottom: 40px;
+            color: $secondry-color;
+            font-size: 35px;
+            font-weight: 400;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: $text-color;
+            line-height: 1.5;
+        }
+
+        a {
+            padding: 17px 40px;
+            margin-top: 25px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.review {
+    padding: 100px 0;
+  .owl-item{
+    width: 391px !important;
+    padding-block: 10px;
+
+  }
+    &-head{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #737588;
+      width: 100%;
+    }
+    &-item{
+    margin: auto;
+    padding: 33px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+    0 6px 20px rgba(0, 0, 0, 0.1); /* 4-sided shadow */
+    border-radius: 5px;
+    margin-inline: 28px;
+    }
+    &-content{
+      font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #737588;
+    width: 100%;
+    }
+    .stars__group{
+      display: flex;
+    justify-content: end;
+    width: 100%;
+    }
+    &-heading{
+      display: flex;
+      max-width: 552px;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      h4{
+        font-weight: 700;
+    text-align: center;
+    font-size: 52px;
+    line-height: 62px;
+    color: #19507c;
+    margin-bottom: 9px;
+      }
+      p{
+        font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 42px;
+    line-height: 28px;
+    text-align: center;
+    color: $text-color;
+      }
+    }
+    .owl-page{
+      width: 10px;
+      height: 10px;
+    background: gray;
+    border-radius: 50%;
+    }
+    .owl-pagination{
+      display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-block: 44px;
+    }
+  }
+  
+  .owl-carousel {
+    .nav-btn {
+      height: 47px;
+      position: absolute;
+      width: 26px;
+      cursor: pointer;
+      top: 100px !important;
+    }
+  
+    .owl-prev.disabled,
+    .owl-next.disabled {
+      pointer-events: none;
+      opacity: 0.2;
+    }
+  
+    .prev-slide {
+      background: url(/themes/Cartfash/assets/img/back.svg) no-repeat scroll 0 0;
+      left: -33px;
+  
+      &:hover {
+        background-position: 0px -53px;
+      }
+    }
+  
+    .next-slide {
+      background: url(/themes/Cartfash/assets/img/next.svg) no-repeat scroll -24px 0px;
+      right: -33px;
+  
+      &:hover {
+        background-position: -24px -53px;
+      }
+    }
+  
+    .owl-wrapper-outer {
+      overflow: hidden; // Added to fix missing value
+    }
+  }
+
+
+
+
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 80px;
+    
+    .footer-item {
+        display: flex;
+        align-items: center;
+        margin: 0 20px;
+ gap: 15px;
+        i {
+            font-size: 45px;
+            color: $primary-color;
+            margin-right: 10px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 16px;
+            color: $primary-color;
+            margin-block: 5px;
+        }
+        a{
+          font-size: 17px;
+          color: $text-color;
+          margin-top: 15px;
+          display: block;
+        }
+    
+        
+    }
+    .theme-btn{
+      line-height: normal;
+      font-size: 18px;
+      padding: 17px 40px;
+    }
+  
+}
+
+
+.copyright {
+  background-color:#182c45; 
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+margin-top: 100px;
+
+
+
+&-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  p {
+    margin: 0;
+    font-size: 17px;
+    max-width: 41%;
+    text-align: justify;
+    line-height: 1.4;
+  }
+
+
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+ 
+}
+
+
+
+}
+
+.scroll-top{
+  position: fixed;
+    right: 20px;
+    bottom: 7px;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 6px;
+    background: #333333;
+    color: #ffffff;
+    &:hover{
+     color: #fff;
+    }
+}
