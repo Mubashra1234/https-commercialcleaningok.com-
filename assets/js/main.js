@@ -33,3 +33,15 @@ function scrollFunction() {
   }
 }
 
+let samt = 0;
+  window.addEventListener('scroll', function () {
+    samt <= 10 ? samt++ : AOS.refresh();
+  });
+
+  AOS.init({
+    animatedClassName: 'aos-animate',
+    disable: function () {
+      var maxWidth = 769;
+      return window.innerWidth < maxWidth;
+    }
+  });
