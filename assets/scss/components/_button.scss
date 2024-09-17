@@ -8,3 +8,27 @@ border-radius: 4px;
 border: transparent;
 font-weight: 500;
 }
+.theme-list{
+    list-style: none !important;
+    padding-left: 0  !important;
+    li{
+        display: flex;
+        align-items: baseline;
+    p{
+        font-size: 16px ;
+        color: $text-color ;
+        padding-block: 10px ;
+        padding-left: 10px;
+        margin-bottom: 0 !important;
+    }
+        i{
+            border-radius: 50%;
+            background-clip: padding-box;
+            background-color: $primary-color;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}

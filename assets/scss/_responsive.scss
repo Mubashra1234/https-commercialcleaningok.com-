@@ -67,6 +67,9 @@
     .copyright-content .social-icons {
         margin-right: 50px;
     }
+    .service-banner .banner-content h1 {
+        font-size: 29px;
+    }
 }
 
 @media(max-width:1200px) {
@@ -139,6 +142,20 @@
         bottom: 22px;
         padding: 9px;
     }
+
+
+
+
+    .service-content h1 {
+        max-width: 90%;
+        font-size: 38px;
+    }
+    .service-content p{
+        max-width: 90%;
+    }
+    .service-banner .banner-content {
+        width: 40%;
+    }
 }
 
 @media(max-width:992px) {
@@ -153,7 +170,11 @@
     }
 
     .about-us {
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-general{
+        flex-direction: column-reverse;
     }
     .serve {
         display: flex;
@@ -187,7 +208,28 @@
     header .navbar{
         padding-right: 10px;
     }
-  
+
+
+    .service-content h1{
+        max-width: 100%;
+        font-size: 27px;
+    }
+.service-content p{
+    max-width: 100%;
+font-size: 16px;
+}  
+.pros{
+    padding-block: 60px;
+}
+.pros h2{
+    font-size: 32px;
+}
+.serve .serve-list{
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-us .about-content {
+    padding: 42px 38px;
+}
 }
 
 @media(max-width:991px){
@@ -240,9 +282,7 @@
         margin-block: 10px 15px;
     }
 
-    .about-us .about-content {
-        padding: 42px 38px;
-    }
+   
 
     .copyright-content {
         display: block;
@@ -258,6 +298,12 @@
         margin-bottom: 20px;
     }
 
+    .service-banner .banner-content h1 {
+        font-size: 23px;
+    }
+    .serve .serve-list li {
+        font-size: 15px;
+    }
 }
 
 @media(max-width:576px) {
@@ -285,4 +331,34 @@
     .about-us .about-content {
         padding: 29px 13px;
     }
+    .pros h2 {
+        font-size: 22px;
+    }
+    .pros ul {
+        padding-block: 2px;
+        margin-left: 18px;
+    }
+    .pros ul li {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    footer .footer-item{
+        gap: 0;
+    }
+    footer .footer-item a {
+        font-size: 15px;
+    }
+    .service-banner .banner-content {
+        width: 81%;
+    }
+    .serve .serve-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .serve h2 {
+        font-size: 35px;
+        margin-block: 10px 17px;
+    }
+    .serve .serve-list li{
+        padding-left: 0;
+    }    
 }

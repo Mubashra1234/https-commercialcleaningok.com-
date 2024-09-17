@@ -1,0 +1,63 @@
+.contact-us{
+    background-color: #efefef;
+    padding-block: 100px;
+    h2{
+        color: $secondry-color;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700;
+ font-size: 36px;    
+}
+h3{
+    color: $secondry-color;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+p{
+    font-weight: 700;
+    font-size: 16px;
+    color: $text-color;
+    margin-bottom: 10px;
+}
+.flex-wrapper-radio{
+    display: flex;
+    gap: 20px;
+    .full{
+        display: flex;
+    align-items: center;
+    gap: 6px;
+
+        label{
+            font-weight: 500;
+            font-size: 14px;
+            color: $text-color;
+        }
+    }
+}
+.contact-about,.about-facality{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+}
+.form{
+    max-width: 530px;
+    input,select{
+        max-width: 100%;
+        width: 100%;
+        height: 49px;
+        border-radius: 5px;
+        padding: 12px 20px;
+        border: 1px solid $primary-color;
+        font-weight: 500;
+        color: $text-color ;
+        font-size: 16px ;
+    }
+    input[type="radio"]{
+        height: fit-content;
+        width: fit-content;
+    }
+}
+}
